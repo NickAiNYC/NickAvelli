@@ -1,10 +1,13 @@
-hostile_derived:
-  - technique: "sidechain compression on off-beats"
-    source: "Martin Garrix - Animals"
-    date: "2026-02-05T14:30:00"
-
-base_prompts:
+base_templates:
   latin_afro_house: |
-    122bpm, A minor, afro house, 
-    techniques: {hostile_techniques}
-    avoid: commercial_edm_patterns
+    {tempo}bpm, {key}, afro house,
+    percussion: {percussion_style},
+    mood: {mood},
+    avoid: {avoid_patterns}
+
+hostile_derived: []  # Populated by hostile_reference.py
+
+avoid_patterns:
+  - "four-on-the-floor without syncopation"
+  - "generic tropical house stabs"
+  - "predictable build-drop structure"
