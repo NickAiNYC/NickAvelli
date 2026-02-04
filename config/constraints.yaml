@@ -1,0 +1,28 @@
+ai_max_percentage: 15
+latency_days: 14
+required_elements:
+  - payphone_id
+  - field_layer
+  - destruction_chain
+  - clave_verified
+
+payphone_rules:
+  min_days_between_uses: 7  # Can't use same payphone weekly
+  required_processing: ["destruction_chain", "pitch_shift"]
+
+genre_constraints:
+  latin_afro_house:
+    tempo_range: [118, 126]
+    key_preference: ["Amin", "Dmin", "Emin"]
+    required_percussion: ["conga", "clave_implied"]
+
+destruction_chains:
+  digital_santeria:
+    - isolate_clave
+    - timestretch: 3.0
+    - convolve_field
+    - repitch: -12
+  bodega_radio:
+    - bandpass: [200, 800]
+    - fm_degradation
+    - resample: 22050
