@@ -1,0 +1,20 @@
+disliked_genres:
+  - commercial_edm
+  - corporate_pop
+  - tiktok_viral
+  - formulaic_trap
+  - ai_generated_mass_appeal
+
+library_path: data/hostile_library.json
+analysis_dir: data/hostile_analysis
+
+# Pre-populated with your actual targets
+initial_library:
+  commercial_edm:
+    - track: "Martin Garrix - Animals"
+      audio_path: null  # Add path when you acquire
+    - track: "David Guetta - Titanium"
+      audio_path: null
+  corporate_pop:
+    - track: "Ed Sheeran - Shape of You"
+      audio_path: null
