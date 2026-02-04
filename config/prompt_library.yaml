@@ -1,0 +1,10 @@
+hostile_derived:
+  - technique: "sidechain compression on off-beats"
+    source: "Martin Garrix - Animals"
+    date: "2026-02-05T14:30:00"
+
+base_prompts:
+  latin_afro_house: |
+    122bpm, A minor, afro house, 
+    techniques: {hostile_techniques}
+    avoid: commercial_edm_patterns
