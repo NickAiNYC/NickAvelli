@@ -1,0 +1,13 @@
+latency_days: 14
+white_box: "WHITE_BOX_OUTPUT/release_candidates"
+valid_chains:
+  - digital_santeria
+  - bodega_radio
+  - subway_resonance
+ai_max_percentage: 15
+genre: latin_afro_house
+tempo_range: [118, 126]
+required_metadata:
+  - payphone_id
+  - destruction_chain
+  - generation_prompt
