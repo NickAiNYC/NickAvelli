@@ -38,8 +38,8 @@ env/
 .pytest_cache/
 
 ### Data / Models ###
-/data/
-/models/
+data/
+models/
 *.pt
 *.pth
 *.onnx
