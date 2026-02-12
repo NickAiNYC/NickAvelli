@@ -168,7 +168,7 @@ class HostileReferenceInjector:
             "date": analysis["timestamp"]
         })
         
-        with open(prompt_lib_lib_path, 'w') as f:
+        with open(prompt_lib_path, 'w') as f:
             yaml.dump(prompts, f)
         
         print(f"➕ Added to prompt library: {stealable[:50]}...")

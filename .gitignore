@@ -20,3 +20,34 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.so
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+
+### Data / Models ###
+data/
+models/
+*.pt
+*.pth
+*.onnx
+*.wav
+*.mp3
+*.flac
+
+### IDE ###
+.idea/
+*.swp
+*.swo
